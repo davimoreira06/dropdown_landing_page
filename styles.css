@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Epilogue', sans-serif;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-img {
+    margin-top: 40px;
+    margin-left: 60px;
+    width: 8rem;
+}
+
+.top-left {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2rem;
+}
+
+li {
+    display: inline;
+    font-weight: 600;
+    color: gray;
+}
+
+.li-c-a {
+    display: inline;
+    margin-right: 40px;
+}
+
+.arrow {
+    display: inline;
+    margin-right: 40px;
+}
+
+.nav-left {
+    margin-top: 2.6rem;
+    margin-left: 5rem;
+}
+
+.nav-right {
+    margin-top: 2.8rem;
+    margin-right: 10rem;
+}
+
+
+
+

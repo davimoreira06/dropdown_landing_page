@@ -1,29 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page - Dropdown and Sidebar</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles.css" />
 </head>
+
 <body>
-    <header>
-        <img class="logo-img" src="./assets/logo.png">
-    </header>
-    <nav>
-        <div class="nav-left">
-            <ul>
-                <li>Features</li>
-                <li>Company</li>
-                <li>Careers</li>
-                <li>About</li>
-            </ul>
+    <div class="top">
+        <div class="top-left">
+            <img class="logo-img" src="./assets/logo.png" />
+            <div class="nav-left">
+                <ul>
+                    <div class="arrow">
+                        <li>Features</li>
+                        <img class="arroz-d-features" src="./assets/arroz-down.png" />
+                    </div>
+                    <div class="arrow">
+                        <li>Company</li>
+                        <img class="arroz-d-company" src="./assets/arroz-down.png" />
+                    </div>
+                    <li class="li-c-a">Careers</li>
+                    <li class="li-c-a">About</li>
+                </ul>
+            </div>
         </div>
         <div class="nav-right">
             <button class="login">Login</button>
             <button class="register">Register</button>
         </div>
-    </nav>
+    </div>
+    <section class="section-left">
+        <h1>Make remote work</h1>
+        <p>
+            Get your team in sync, no matter your location. Streamline processes,
+            create team rituals, and watch productivity soar.
+        </p>
+        <button class="learn-more">Learn more</button>
+        <div class="bottom-imgs">
+            <img class="databiz" src="./assets/client-databiz.png" />
+            <img class="audio" src="./assets/client-audiophile.png" />
+            <img class="meet" src="./assets/client-meet.png" />
+            <img class="maker" src="./assets/client-maker.png" />
+        </div>
+    </section>
+    <section class="section-right">
+        <img class="hero" src="./assets/image-hero-desktop.png" />
+    </section>
 </body>
+
 </html>
