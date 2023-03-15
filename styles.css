@@ -17,8 +17,8 @@ body {
 }
 
 .logo-img {
-    margin-top: 40px;
-    margin-left: 60px;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
     width: 8rem;
 }
 
@@ -31,17 +31,28 @@ body {
 li {
     display: inline;
     font-weight: 600;
-    color: gray;
+    color: rgb(109, 108, 108);
+    cursor: pointer;
+    transition: 0.4s;
 }
 
 .li-c-a {
     display: inline;
-    margin-right: 40px;
+    margin-right: 50px;
 }
 
 .arrow {
     display: inline;
-    margin-right: 40px;
+    margin-right: 50px;
+    transition: 0.4s;
+}
+
+.arrow:hover {
+    filter: brightness(0)
+}
+
+li:hover {
+    color: black;
 }
 
 .nav-left {
@@ -50,10 +61,92 @@ li {
 }
 
 .nav-right {
-    margin-top: 2.8rem;
-    margin-right: 10rem;
+    margin-top: 2rem;
+    margin-right: 8rem;
 }
 
+.arrow-d-features, .arrow-d-company {
+    width: 12px;
+    margin-left: 3px;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+
+
+
+.login {
+    border: none;
+    background: transparent;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(109, 108, 108);
+    margin-right: 3.5rem;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.login:hover {
+    color: black;
+}
+
+.register {
+    background-color: white;
+    color: rgb(109, 108, 108);
+    border: solid 1.8px rgb(109, 108, 108);
+    font-weight: 600;
+    height: 2.5rem;
+    width: 7rem;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.register:hover {
+    color: black;
+    border-color: black;
+}
+
+.nav-left, .nav-right {
+    position: relative;
+    top: 7px;
+}
+
+.rest-of-page {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-left {
+    margin-top: 8rem;
+    margin-left: 12rem;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 60px;
+    width: 25rem;
+}
+
+p {
+    font-weight: 600;
+    width: 30rem;
+    color: rgb(109, 108, 108);
+    
+}
+
+.databiz-img, .audio-img, .meet-img, .maker-img {
+    width: 7vw;
+    margin-right: 4rem;
+}
+
+.audio-img {
+    width: 6vw;
+}
+
+.hero-img {
+    width: 28vw;
+}
 
 
 
