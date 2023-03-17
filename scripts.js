@@ -1,15 +1,18 @@
-const dropdF = document.querySelector(".dropdown-f"),
-arrow = dropdF.querySelector("arrow"),
-options = dropdF.querySelectorAll(".options li"),
-features = dropdF.querySelector("features");
+const features = document.getElementById("arrow-f");
 
-arrow.addEventListener("click", () => dropdF.classList.toggle("active"));
+function toggleDropdF() {
+    const dropdF = document.getElementById("dropdown-f");
+    dropdF.classList.toggle("active");
+}
 
-options.forEach(option =>{
-    option.addEventListener("click", () =>{
-        let selectedOption = option.querySelector(".option-text").innerText;
-        console.log(selectedOption)
-        
-    })
-    
-})
+features.addEventListener("click", toggleDropdF);
+
+
+const company = document.getElementById("arrow-c");
+
+function toggleDropdC() {
+    const dropdC = document.getElementById("dropdown-c");
+    dropdC.classList.toggle("active");
+}
+
+company.addEventListener("click", toggleDropdC);
