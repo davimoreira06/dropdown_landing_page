@@ -116,11 +116,14 @@ li:hover {
 .rest-of-page {
     display: flex;
     justify-content: space-between;
+    height: 100%;
+    width: 100%;
 }
 
 .section-left {
-    margin-top: 12rem;
+    margin-top: 17rem;
     margin-left: 12rem;
+   
 }
 
 h1 {
@@ -158,7 +161,7 @@ p {
 .databiz-img, .audio-img, .meet-img, .maker-img {
     width: 6vw;
     margin-right: 4rem;
-    margin-top: 6rem;
+    margin-top: 9.4rem;
 }
 
 .audio-img {
@@ -182,6 +185,7 @@ p {
     width: 10rem;  
     left: -4rem;
     display: none;
+    opacity: 0.94;
 }
 
 #options-f li {
@@ -227,6 +231,7 @@ p {
     width: 7rem;
     left: 9rem;
     display: none;
+    opacity: 0.94;
 }
 
 #options-c li {
@@ -241,6 +246,135 @@ p {
     display: block;
 }
 
+.hero-mobile-img {
+    display: none;
+}
+
+.sidebar {
+    display: none;
+}
+
+@media (max-width: 1700px) {
+    .section-left {
+        margin-top: 11rem
+    };
+}
+
+@media screen and (max-width: 1600px) {
+    .section-left {
+        margin-top: 12rem;
+    }
+
+    .databiz-img, .audio-img, .meet-img, .maker-img {
+        margin-top: 6rem;
+    }
+}
+
+@media (max-width: 1350px) {
+    .section-left {
+        margin-top: 7.5rem;
+    }
+}
+
+@media (max-width: 1270px) {
+    .databiz-img, .audio-img, .meet-img, .maker-img {
+        margin-right: 2.5rem;
+    }
+}
+
+@media (max-width: 1230px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 15px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .databiz-img, .audio-img, .meet-img, .maker-img {
+        margin-top: 4rem;
+    }
+
+    .section-left {
+        margin-top: 8.4rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .rest-of-page {
+        display: block;
+    }
+
+    .nav-left, .nav-right {
+        display: none;
+    }
+
+    .hero-img {
+        display: none;
+    }
+
+    .logo-img {
+        margin-left: 0px;
+    }
+
+    .sidebar {
+        display: inline-block;
+        width: 12vw;
+        height: 3.5vh;
+        position: relative;
+        top: 4.8vh;
+        left: 40vw;
+    }
+
+    .hero-mobile-img {
+        display: block;
+        width: 37rem;
+        margin-top: 5rem;
+    }
+
+    .section-left {
+        margin: 0;
+        text-align: center;
+        position: relative;
+        left: 5rem;
+        top: 10rem;
+    }
+
+    h1 {
+        width: 31rem;
+        position: relative;
+        right: 3rem;
+    }
+
+    p {
+        font-size: 21px;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .learn-more {
+        font-size: 18px;
+        width: 9.5rem;
+    }
+
+    .bottom-imgs {
+        display: table;
+        width: 50rem;
+        position: relative;
+        right: 11.3rem;
+    }
+
+    .databiz-img, .audio-img, .meet-img, .maker-img {
+        width: 28vw;
+        margin: 0;
+        margin-top: 8rem;
+        margin-right: 2rem;
+        
+    
+    }
 
 
+}
 
