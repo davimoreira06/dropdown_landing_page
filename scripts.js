@@ -16,3 +16,18 @@ function toggleDropdC() {
 }
 
 company.addEventListener("click", toggleDropdC);
+
+
+
+/*
+const sidebar = document.getElementById("sidebar");
+
+function toggleNav() {
+    const navL = document.getElementById("navL");
+    navL.classList.toggle("active");
+    const navR = document.getElementById("navR");
+    navR.classList.toggle("active");
+}
+
+sidebar.addEventListener("click", toggleNav);
+*/
