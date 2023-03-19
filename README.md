@@ -10,7 +10,7 @@ Landing page com menu dropdown 100% responsivo.
 
 ## Layout web
 
-<img src="./assets/gif-web.gif">
+<img src="./assets/gif-web2.gif">
 
 <hr>
 

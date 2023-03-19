@@ -179,7 +179,7 @@ p {
     position: absolute;
     margin-top: 15px;
     background-color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 80px -35px black;
+    box-shadow: 0px 0px 100px -50px black;
     border-radius: 10px;
     width: 10rem;  
     left: -4rem;
@@ -233,7 +233,7 @@ p {
     position: absolute;
     margin-top: 15px;
     background-color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 80px -35px black;
+    box-shadow: 0px 0px 100px -50px black;
     border-radius: 10px;
     width: 7rem;
     left: 9rem;
