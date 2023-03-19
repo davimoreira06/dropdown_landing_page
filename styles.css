@@ -256,8 +256,8 @@ p {
 
 @media (max-width: 1700px) {
     .section-left {
-        margin-top: 11rem
-    };
+        margin-top: 11rem;
+    }
 }
 
 @media screen and (max-width: 1600px) {
@@ -302,7 +302,7 @@ p {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 390.4px) {
     .rest-of-page {
         display: block;
     }
@@ -317,6 +317,7 @@ p {
 
     .logo-img {
         margin-left: 0px;
+        width: 6rem;
     }
 
     .sidebar {
@@ -324,13 +325,14 @@ p {
         width: 12vw;
         height: 3.5vh;
         position: relative;
-        top: 4.8vh;
-        left: 40vw;
+        top: 4.4vh;
+        left: -9vw;
     }
 
     .hero-mobile-img {
         display: block;
-        width: 37rem;
+        width: 100%;
+        background-size: cover;
         margin-top: 5rem;
     }
 
@@ -338,20 +340,25 @@ p {
         margin: 0;
         text-align: center;
         position: relative;
-        left: 5rem;
-        top: 10rem;
+        left: 0rem;
+        top: 4rem;
+        width: 100%;
+        height: 100%;
     }
 
     h1 {
-        width: 31rem;
-        position: relative;
-        right: 3rem;
+        width: 85vw;
+        margin-left: 7.8vw;
+        font-size: 34px;
     }
 
     p {
-        font-size: 21px;
+        font-size: 15px;
         margin-top: 1.5rem;
         margin-bottom: 1.5rem;
+        margin-left: 12.5vw;
+        width: 76vw;
+        
     }
 
     .learn-more {
@@ -361,18 +368,18 @@ p {
 
     .bottom-imgs {
         display: table;
-        width: 50rem;
-        position: relative;
-        right: 11.3rem;
+        width: 100%;
+        height: 100%;
+        
     }
 
     .databiz-img, .audio-img, .meet-img, .maker-img {
-        width: 28vw;
+        width: 17vw;
         margin: 0;
-        margin-top: 8rem;
-        margin-right: 2rem;
-        
-    
+        margin-top: 5rem;
+        margin-right: 6vw;
+        position: relative;
+        right: -12px;
     }
 
 
