@@ -302,7 +302,7 @@ p {
     }
 }
 
-@media (max-width: 390.4px) {
+@media (max-width: 1120px) {
     .rest-of-page {
         display: block;
     }
