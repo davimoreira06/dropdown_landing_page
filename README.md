@@ -6,25 +6,25 @@ https://dropdown-landing-page.vercel.app/
 
 Landing page com menu dropdown 100% responsivo.
 
-<hr>
+#
 
 ## Layout web
 
 <img src="./assets/gif-web2.gif">
 
-<hr>
+#
 
 ## Layout mobile 
 
 <img src="./assets/mobile-print.png" width="250">
 
-<hr> 
+# 
 
 ## Responsividade
 
 <img src="./assets/gif-responsividade.gif">
 
-<hr>
+#
 
 ## Tecnologias utilizadas
 
@@ -34,7 +34,7 @@ Landing page com menu dropdown 100% responsivo.
 - CSS
 - JavaScript
 
-<hr>
+#
 
 ## Autor
 
